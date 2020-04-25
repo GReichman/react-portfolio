@@ -1,6 +1,5 @@
 import React from "react";
 import PortfolioItem from "../components/PortfolioItem"
-
 import Project1 from "../pictures/home.jpg";
 import Project2 from "../pictures/weather.png";
 import Project3 from "../pictures/planner.png";
