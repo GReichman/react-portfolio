@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioItem from "../components/PortfolioItem"
+import Project0 from "../pictures/posts.png";
 import Project1 from "../pictures/home.jpg";
 import Project2 from "../pictures/weather.png";
 import Project3 from "../pictures/planner.png";
@@ -23,6 +24,12 @@ function Portfolio() {
 
 
 const projects = [
+    {
+        name: "Music Is For Me",
+        repo: "https://github.com/gusgonz/Music-Is-For-Me",
+        live: "https://music-is-for-me.herokuapp.com/",
+        image: Project0
+    },
     {
         name: "Rick and Morty site",
         repo: "https://github.com/rforde1/Rick-and-Morty",

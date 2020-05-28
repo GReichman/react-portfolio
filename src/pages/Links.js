@@ -3,21 +3,28 @@ import ContactLink from "../components/contactLink";
 import Resume from "../pictures/resume.pdf";
 
 
-
+const linkStyle = {
+    height: "100px",
+    width: "100%"
+}
 
 
 function Links() {
 
     const resume = (
-        <h3 id="portText" className="linkPic">Resume</h3>
+        <h3 id="portText" className="linkPic" style={linkStyle}>Resume</h3>
     );
     const github = (
-        <img className="linkPic" src="https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg" alt="github" />
+        <img className="linkPic" src="https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg" alt="github" 
+        style={linkStyle}/>
     );
     const linkedin = (
         <img className="linkPic"
-            src="https://blog.linkedin.com/etc/designs/linkedin/katy/global/clientlibs/img/default-share.png"
-            alt="linkedin"></img>
+            src="https://compasstr.com/wp-content/uploads/2018/07/linkedin-icon-t.png"
+            alt="linkedin"
+            style={linkStyle}>
+                
+            </img>
     );
 
     return (
